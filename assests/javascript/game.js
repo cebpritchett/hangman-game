@@ -37,7 +37,7 @@ document.addEventListener('keypress', function(event) {
 // replaces underscore with right letter
         underScore[currentWord.indexOf(letter)] = letter;
  // checks to see if users word matches the currentWord       
-        if (underScore.join(" ") === currentWord){
+        if (underScore.join(" ") == currentWord){
             alert('You Win');
         }
         console.log(correct);
